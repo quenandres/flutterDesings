@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:backgrounds/src/widgets/headers.dart';
 
 class HeadersPage extends StatelessWidget {
   const HeadersPage({super.key});
@@ -6,9 +7,7 @@ class HeadersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Text('Header Page'),
-      ),
+      body: HeadersDiagonal(),
     );
   }
 }
